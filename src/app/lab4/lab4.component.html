@@ -1,0 +1,5 @@
+<p>lab4 works!</p>
+<ul *ngFor="let numi of box">
+    <li *ngIf="(numi%2 == 0)" class="number-even">{{numi}}</li>
+    <li *ngIf="(numi%2 !== 0)" class="number-odd">{{numi}}</li>
+</ul>
